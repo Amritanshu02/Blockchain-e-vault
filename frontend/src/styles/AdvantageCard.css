@@ -1,0 +1,19 @@
+.advantage-card {
+    max-width: 300px;
+    margin-bottom: 2rem;
+}
+
+.advantage-card-content {
+    /* text-wrap: wrap;
+    color: aqua; */
+}
+
+.advantage-card-content-title {
+    margin-bottom: 15px !important;
+    font-weight: 600 !important;
+}
+
+.advantage-card button {
+    font-weight: 600;
+    color: blueviolet;
+}

@@ -1,0 +1,75 @@
+.home-main-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-vector/stylish-white-with-spiral-hexagonal-shapes_1017-26763.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-content {
+    display: flex;
+    /* background-color: aquamarine; */
+}
+
+.home-content-left {
+    height: 100%;
+    /* background-color: antiquewhite; */
+    align-self: center;
+    padding: 4rem 3rem;
+    /* line-height: 2rem; */
+}
+
+.home-content-left h1 {
+    font-size: 4vw;
+    margin-bottom: 1rem;
+}
+
+.home-content-left h1 span {
+    color: blueviolet;
+}
+
+.home-content-left p {
+    margin-bottom: 1rem;
+    color: rgb(154, 152, 152);
+}
+
+.home-content-left button {
+    padding: 7px 30px;
+    background-color: blueviolet;
+    color: white;
+    /* font-weight: 700; */
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.home-content-right {
+    height: 381px;
+    width: 678px;
+}
+
+.home-content-right img {
+    height: 100%;
+    width: 100%;
+    border-radius: 30% 70% 67% 33% / 19% 24% 76% 81%;
+    object-fit: cover;
+}
+
+@media (max-width: 767px) {
+    .home-content {
+        flex-direction: column;
+    }
+
+    .home-content-left {
+        padding: 1rem 3rem;
+    }
+
+    .home-content-left h1 {
+        font-size: 7vw;
+    }
+
+    .home-content-right {
+        height: 300px;
+        width: 550px;
+    }
+}
