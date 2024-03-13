@@ -29,6 +29,14 @@
     border: none;
     border-radius: 7px;
     cursor: pointer;
+    /* right: 5rem; */
+}
+
+.main-container-navbar .login {
+    right: 10rem;
+}
+
+.main-container-navbar .signin {
     right: 5rem;
 }
 

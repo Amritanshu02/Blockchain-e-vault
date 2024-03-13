@@ -17,3 +17,7 @@
     font-weight: 600;
     color: blueviolet;
 }
+
+.advantage-card button:hover {
+    background-color: rgba(198, 149, 243, 0.194);
+}
